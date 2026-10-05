@@ -72,7 +72,7 @@ static char rowStaticRef[] = "row";
     
     if (![[[NSUserDefaults standardUserDefaults] objectForKey:@"PSLinkedInFirstRun"] isEqualToString:PSIVersionString]) {
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"PSLinkedIn Settings Info"
-                                                                       message:@"In the future: Hold down on the three lines at the top right of your profile page, to re-open PSLinkedIn settings."
+                                                                       message:@"In the future: hold four fingers anywhere on the screen to re-open PSLinkedIn settings."
                                                                 preferredStyle:UIAlertControllerStyleAlert];
         
         [alert addAction:[UIAlertAction actionWithTitle:@"I understand!"
