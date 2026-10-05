@@ -1,0 +1,10 @@
+Package: com.pstepanovum.pslinkedin
+Name: PSLinkedIn
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Distraction-free LinkedIn: no feed, no video, just your network.
+Homepage: https://github.com/pstepanovum/PSLinkedIn
+Maintainer: Pavel Stepanov
+Author: Pavel Stepanov
+Section: Tweaks
+Depends: mobilesubstrate
