@@ -4,7 +4,7 @@
 
 PSLinkedIn is an iOS tweak that turns LinkedIn into a networking tool. The home feed, the vertical video feed and the post button are gone, so there is nothing to scroll. What stays: My Network, Notifications, Jobs, messaging, search and your profile.
 
-Sister project of [PSInstagram](https://github.com/pstepanovum/PSInstagram).
+Sister projects: [PSInstagram](https://github.com/pstepanovum/PSInstagram) and [PSYoutube](https://github.com/pstepanovum/PSYoutube), the same idea for other apps.
 
 ---
 
