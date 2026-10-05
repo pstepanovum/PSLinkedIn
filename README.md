@@ -59,6 +59,7 @@ BUNDLE_ID=com.example.linkedin ./dev.sh   # use a different bundle ID
 `dev.sh` signs with a minimal set of entitlements taken from your profile, because some reseller profiles contain malformed wildcard entitlements that crash LinkedIn.
 
 ## Known limitations
+- **Updating over an existing install can fail**, in which case `dev.sh` reinstalls it. Your PSLinkedIn settings come back from the keychain, but you may need to sign in to LinkedIn again.
 - **App extensions are removed** (share sheet, widgets, rich notifications).
 - **Use at your own risk.** Modified clients are against LinkedIn's terms of use.
 
