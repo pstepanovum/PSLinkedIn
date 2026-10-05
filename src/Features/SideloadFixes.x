@@ -125,7 +125,11 @@ static NSDictionary *PSIRemapAccessGroup(CFDictionaryRef query) {
         [mutableQuery removeObjectForKey:(__bridge id)kSecAttrAccessGroup];
     }
 
-    mutableQuery[(__bridge id)kSecAttrDescription] = PSIGroupTag(group);
+    // Only password items have a description attribute (keys and certificates don't)
+    id itemClass = mutableQuery[(__bridge id)kSecClass];
+    if ([itemClass isEqual:(__bridge id)kSecClassGenericPassword] || [itemClass isEqual:(__bridge id)kSecClassInternetPassword]) {
+        mutableQuery[(__bridge id)kSecAttrDescription] = PSIGroupTag(group);
+    }
 
     return mutableQuery;
 }
