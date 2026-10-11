@@ -70,5 +70,10 @@ Bundled libraries:
 - [FLEXing](https://github.com/SoCuul/FLEXing) / [FLEX](https://github.com/FLEXTool/FLEX): in-app debugging
 - [fishhook](https://github.com/facebook/fishhook): symbol rebinding for the keychain fixes
 
+## Disclaimer
+PSLinkedIn is an independent project, not affiliated with, endorsed by or sponsored by LinkedIn Corporation or Microsoft. LinkedIn is a trademark of its owner and is used here only to describe what this tweak works with.
+
+This repository contains only original tweak source code. It does not include or distribute the LinkedIn app or any of its files: to use the tweak, you need your own legally obtained copy of the app. Modified clients may break LinkedIn's terms of service; use it at your own risk, for personal and educational purposes.
+
 ## License
 [GNU General Public License v3.0](LICENSE)
